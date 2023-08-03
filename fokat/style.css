@@ -1,0 +1,30 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex: 1;
+    height: 90vh;
+}
+.sidebar{
+    display: flex;
+    flex: 0.2;
+    background-color: aqua;
+}
+.mainbar{
+    display: flex;
+    flex: 0.8;
+    background-color: yellow;
+}
+.main-topbar{
+    width: 100%;
+    height: 35vh;
+    background-color: blueviolet;
+}
+.footbar{
+    width: 100%;
+    height: 10vh;
+    background-color: red;
+}
